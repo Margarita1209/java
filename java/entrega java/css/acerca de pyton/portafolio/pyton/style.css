@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* { outline: 1px dotted red; }
+
+#contenedor{
+    width: 970px;
+    background-color: #245076;
+}
+
+li{
+    display:inline-block;
+    text-align: center;
+}
+
+#menu > ul >li> a{
+    width: 200px;
+    height: 50px;
+    display:inline-block;
+}

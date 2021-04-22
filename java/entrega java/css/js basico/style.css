@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+
+}
+body {
+    background-color: #2d277bef;
+    margin:0px auto;
+    overflow: hidden;
+    height: auto;
+}
+
+h1 {
+
+   margin:10px; 
+   color: white;
+}
+h2 {
+    margin: 10px;
+}
+
+p{
+    margin:10px;
+    margin: top 20px;
+}
+
+span{
+    color: blue;
+}
+#header {
+    min-height: 50px;
+    background-color: rgb(199, 41, 41);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#menu {
+    min-height: 250px;
+    width: 15%;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #1c918d;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+* {
+    margin: 10px;
+}
+
+
+a{
+    color: turquoise;
+}
+#menu > ul > li> a {
+
+    color: turquoise;
+
+
+}
+
+li.a {
+    list-style-type: circle;
+  }
+
+#menu > ul > ul > li > a > {
+
+    color: turquoise;
+    list-style-type: circle;
+    margin-left: 35px;
+}
+
+#contenido {
+    min-height: 400px;
+    width: 80%;
+    color:white;
+    display: inline-block;
+    background-color: rgb(12, 9, 44);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+#contenido > ul > li {
+    margin: 5px 10px 10px 30px!important;
+}
+
+#contenido > ul > li > a {
+    color: turquoise;
+}
+
+
+#pie {
+    min-height: 30px;
+    width: 95%;
+    color:white;
+    background-color:gray;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#pie > p {
+    margin-top: 10px;
+
+}
+#pie > p > a{
+    color: turquoise;
+}

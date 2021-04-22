@@ -1,0 +1,49 @@
+
+* { outline: 1px dotted red; }
+
+.encabezado {
+    width:700px;
+    height: 70px;
+    background-color: #d4d2ae;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+
+}
+.encabezado > img {
+    width: 100px;
+    height: 50px;
+    vertical-align: bottom;
+    background-color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    display: inline;
+}
+h1 {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.posicion-1{
+    background-color: #82b4ee;
+    border: 2px solid black;
+    padding: 10px ;
+    margin:3px;
+
+}
+.posicion-2{
+    
+    background-color: #f36870;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 10px ;
+}
+#dibujos{
+    background-color: #d4d2ae;
+    padding:15px;
+    width: 690px;
+}
+

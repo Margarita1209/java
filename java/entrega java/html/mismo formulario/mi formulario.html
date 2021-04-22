@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<div style="text-align:center;">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Mi Formulario De Registro</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="confirmar">Confirmar:</label>
+            <input type="texto"id="confirmar" name="confirmar"><br><br>
+            <label for="cumpleaños" class="control-label">Cumpleaños</label>
+            <input name='cumpleaños' type="date" class="form-control" id="cumpleaños"><br><br>
+
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="otros">Otros</label>
+            <input type="radio" id="otros" name="genero" value="otros"><br></br>
+
+            <label for="descripcion">Una breve descripción de ti:</label> <br><br>
+            <textarea name="description"></textarea><br></br>
+
+            <label for="lejuaje">Lenguaje Favorito</label>
+            <select name="lenguajes" id="lenguajes">
+                <option value="java">Java</option>
+                <option value="python">PHP</option>
+                <option value="javascript">Python</option>
+                <option value="c++">C#</option>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+
+
+        </form>
+    </body>
+</div>
+</html>

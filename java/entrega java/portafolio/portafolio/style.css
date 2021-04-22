@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo {
+    font-family: cursive;
+}
+
+body {
+    max-width:1300px;
+    margin-left: 50px;
+
+    padding:10px;
+}
+#header {
+    background-color: #f3f3f3;
+    width: 972px;
+}
+h1 {
+    min-height: 40px;
+    width: 536px;
+    margin: 0%;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+h2 {
+    min-height:40px;
+    min-width:300px;
+    padding: 5px;
+    display:inline-block;
+}
+h3,h4 {
+    padding: 5px;
+    background:linear-gradient(180deg, #b0b0b4,#878593, #b0b0b4);
+    color: white;
+}
+
+#continue{
+    text-decoration: underline;
+}
+
+#foto > img{
+    border: 10px solid white;
+    min-height:200px;
+    width: 400px;
+    margin:15px;
+    display: inline-block;
+    
+}
+#about {
+    width: 455px;
+    height: 274px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    background:linear-gradient(75deg,#fefefe, #ded1dd);
+    /* background-color: turquoise;*/
+    vertical-align: top;
+    margin: 16px;
+}
+#contenido{
+    padding: 0px;
+    margin: 10px,10px, 10px,10px;
+    width: 972px;
+    background: radial-gradient(#6f5964, #1d0c11);
+}
+
+#box-1, #box-2, #box-3{
+    
+    max-width: 280px;
+    height:600px;
+    background:linear-gradient(75deg,#fefefe, #ded1dd);
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+img {
+    width: 280px;
+}
+#box-4 {
+    margin-top: 70px;
+}
+
+#box-5{
+    margin-top: 35px;
+}
+
+#box-4 > img {
+    width: 40px;
+    display: inline-block;
+    padding: 5px;
+
+}
+#box-5 > img {
+    width: 40px;
+    padding: 5px;
+    display: inline-block;
+
+}
+#box-6 > img {
+    width: 40px;
+    padding: 5px;
+    display: inline-block;
+}
+
+p {
+    padding: 10px 10px;
+    text-align: justify;
+  text-justify: inter-word;
+
+
+}
+.boton{
+    text-align: center;
+}
+
+button {
+    background-color: #407d61;
+    text-align: center;
+    padding:7px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    
+}
+#pie{
+    text-align: center;
+    background:linear-gradient(75deg,#fefefe, #ded1dd);
+    max-width: 972px;
+    margin:0px;
+}
+
+#pie > img {
+    max-width: 15px;
+}
+#pie > p {
+    text-align: center;
+}
+#pie > a {
+    vertical-align: top;
+    margin:5px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
